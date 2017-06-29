@@ -1,0 +1,56 @@
+<div class="card" style="width: 50rem;">
+	<div class="card-header">
+	<ul class="nav nav-pills card-header-pills" >
+		<li class="nav-item">
+			<a class="nav-link active" href="#view">Vista</a>
+		</li>
+		<li class="nav-item">
+			<a id="seededit" class="nav-link" href="#edit">Edición</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link disabled" href="#share">Compartir</a>
+		</li>
+		<li class="nav-item">
+			<a id="closeview" class="nav-link" href="#">Cerrar</a>
+		</li>
+
+	</ul>
+
+	</div>
+	<!-- img class="card-img-top" src="..." alt="Card image cap" -->
+	<div class="card-block">
+		<div class="row">
+			<h4 class="card-title"><%= slug %></h4>
+		</div>
+		<div class="row">
+			<h6 class="card-subtitle mb-2 text-muted col"><strong>Comprobantes: </strong><%= cnumber %></h6>
+			<h6 class="card-subtitle mb-2 text-muted col"><strong>Fecha publicación: </strong><%= fecomp %></h6>
+		</div>
+		<div class="row">
+			<p class="mb-2 text-muted col"><strong>Campaña: </strong><%= campaign %></p>
+			<p class="mb-2 text-muted col"><strong>Cliente: </strong><%= campaign_data.client %></p>
+		</div>
+		<div class="row">
+			<p class="mb-2 text-muted col"><strong>Medio: </strong><%= media %></p>
+			<p class="mb-2 text-muted col"><strong>Sección: </strong><%= section %> </p>
+		</div>
+		<div class="row">
+			<p class="mb-2 text-muted col"><strong>Tema: </strong><%= tema %></p>
+			<p class="mb-2 text-muted col"><strong>Sub-tema: </strong><%= subtema %></p>
+			<p class="mb-2 text-muted col"><strong>Etiquetas: </strong><%= etiquetas %></p>
+		</div>
+		<div class="row">
+			<p class="mb-2 text-muted col"><strong>Producto: </strong><%= producto %></p>
+			<p class="mb-2 text-muted col"><strong>Dimensión: </strong><%= dimension %></p>
+			<p class="mb-2 text-muted col"><strong>Indicación: </strong><%= indicacion %> </p>
+		</div>
+
+		<div class="row">
+			<p style="background: #E5E5EA; "><%= description %></p>
+		</div>
+
+
+
+	</div>
+</div>
+

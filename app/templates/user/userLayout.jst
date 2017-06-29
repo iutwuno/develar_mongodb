@@ -1,0 +1,28 @@
+<div class="jumbotron">
+	<h1 class="display-3">Usuarios</h1>
+	<hr class="m-y-md">
+	<form class="form-inline my-3 my-lg-0">
+		<input class="form-control mr-lg-2" type="text" placeholder="Buscar">
+		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    <div class="d-flex flex-row-reverse" style="width: 450px;"><button id="newUser" class="btn btn-outline-info" >Nuevo Usuario</button></div>
+	</form>
+</div>
+
+<ul id="usrlayout" class="nav nav-tabs" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="tab" href="#userList" role="tab">UserList</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#userView" role="tab">UserDetail</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#userEditPanel" role="tab">Edición</a>
+  </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane active" id="userList" role="tabpanel"></div>
+  <div class="tab-pane" id="userView" role="tabpanel"></div>
+  <div class="tab-pane" id="userEditPanel" role="tabpanel"></div>
+</div>
